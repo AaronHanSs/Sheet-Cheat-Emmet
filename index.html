@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Cheet_sheet Emmet</title>
+  </head>
+  <body>
+    <header>
+      <!-- banierre -->
+     <div class="banniere">
+      <h1 class="display-3">cheet_sheet Emmet</h1>
+    </div>
+      <!-- end banniere -->
+    </header>
+
+    <section>
+
+      <h3> Raccourcis Emmet </h3>
+
+        <p> Emmet est un plugin d'Atom qui peut être utile pour accroître votre productivité grâce à de nombreux raccourcis vous épargnant la saisie de code répétitif et ennuyeux. J'utilise Emmet pour automatiser la création de listes, pour la numérotation incrémentée de classes, pour CSS etc. Voici quelques-uns des raccourcis les plus utiles, au cas où vous les auriez oubliés.
+
+  Dans les exemples qui suivent, la syntaxe en blanc correspond à Emmet, en tapant la touche tabulation on obtient la syntaxe colorée HTML. </p>
+
+        <h4> Abréviations html </h4>
+
+      <h5> Préparation des balises principales </h5>
+        <p> Commencer avec un nouveau document HTML prend moins d'une seconde. Il suffit de taper ! ou html:5 puis faire "tabulation" ou "enter" selon votre éditeur de texte (dans un document vierge préalablement enregistré avec une extension .html ) et vous verrez apparaître un doctype HTML5 structuré avec quelques éléments de base. </p>
+
+      <h5> Ajouter des classes, id, texte et attributs </h5>
+        <p>La syntaxe d'Emmet pour décrire les éléments reprend les sélecteurs CSS, il est donc facile de s'y habituer. Essayez de combiner un nom d'élément (p.ex. p ) et un identifiant (p.ex. p#description ).</p>
+
+      <h5> Emboîtements </h5>
+        <p>En emboîtant nos abréviations, nous pouvons construire une page entière de code en n'écrivant qu'une seule ligne. L'opérateur "descendant" (child), représenté par > vous permet d'emboîter les éléments. L'opérateur sibling (pour les éléments de même niveau dans le DOM), représenté par + vous permet de placer les éléments les uns à côté des autres. Enfin, l'opérateur ascensionnel, représenté par ^ vous permet de remonter d'un niveau dans l'arbre.</p>
+
+      <h5> Regroupements </h5>
+        <p>Pour profiter vraiment des emboîtements sans que votre code ne devienne une bouillie d'opérateurs, le mieux est de les regrouper - comme en mathématiques - en utilisant des parenthèses. Par exemple (.foo>h1)+(.bar>h2) </p>
+
+      <h5> Multiplication </h5>
+        <p> Vous pouvez choisir le nombre de fois qu'un élément doit apparaître, en utilisant l'opératuer *, exemple ul>li*3</p>
+
+      <h5> Numérotation </h5>
+        <p>Et si l'on voulait ajouter une numérotation ? Il suffit d'insérer l'opérateur $ dans le nom de l'élément ou de l'attribut, ou dans la valeur de l'attribut, pour obtenir cette numérotation. Si vous tapez ul>li.item$*3</p>
+
+      <h4>Abréviations CSS</h4>
+
+      <h5>Valeurs</h5>
+        <p>Emmet vous aide également pour CSS. Vous pouvez injecter des valeurs directement dans des abréviations CSS. Imaginons que vous vouliez définir une largeur, tapez w100.</p>
+
+      <h5>Opérateurs additionnels</h5>
+        <p>Certaines propriétés, comme background, background-image , border-radius , font , @font-face , text-outline , text-shadow possèdent quelques options supplémentaires que vous pouvez activer en utilisant le signe +. Par exemple, @f+</p>
+    </section>
+
+    <footer>
+      <p>
+        Aaron Hans : <a href="https://la-cascade.io/goodbye-zen-coding-hello-emmet/"> source</a>
+      </p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+  </body>
+</html>
